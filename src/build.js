@@ -4,7 +4,7 @@ const fs = require('fs')
 const path = require('path')
 const colors = require('./colors')
 
-const themeName = 'DuoTone Dark Custom-color-theme.json'
+const themeName = 'DuoTone Custom-color-theme.json'
 const colorList = Object.keys(colors)
 
 var template = fs.readFileSync(path.join(__dirname, 'template.json')).toString('utf8')
