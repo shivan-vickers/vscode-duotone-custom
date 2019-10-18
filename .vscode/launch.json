@@ -20,5 +20,11 @@
                 "--extensionDevelopmentPath=${workspaceFolder}"
             ]
         }
+    ],
+    "compounds": [
+        {
+            "name": "Build and Test",
+            "configurations": ["Build Theme", "Extension"]
+        }
     ]
 }
