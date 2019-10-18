@@ -1,0 +1,17 @@
+{
+	"uno1": "#c1cce6",
+	"uno2": "#859fe0",
+	"uno3": "#3c5596",
+	"uno4": "#676f83",
+	"uno5": "#494e5a",
+	"duo1": "#c95476",
+	"duo2": "#932f4b",
+	"duo3": "#7c6e72",
+	"syntaxFg": "#859fe0",
+	"syntaxBg": "#1b202d",
+	"syntaxAccent": "#ff5283",
+	"syntaxGuide": "#1f2431",
+	"syntaxSelection": "#232735",
+	"syntaxSelectionGutter": "#262b39",
+	"syntaxCursorLine": "#232735bd"
+}

@@ -1,0 +1,256 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"type": "dark",
+	"colors": {
+		"focusBorder": "__syntaxGuide__",
+		"foreground": "__syntaxFg__",
+    "editor.background": "__syntaxBg__",
+		"editor.foreground": "__syntaxFg__",
+		"widget.shadow": "__syntaxGuide__",
+		"selection.background": "__syntaxGuide__",
+		"textBlockQuote.background": "__syntaxGuide__",
+		"textBlockQuote.border": "__syntaxSelectionGutter__",
+		"textCodeBlock.background":"__duo3__",
+		"textPreformat.foreground": "__duo3__",
+		"textLink.foreground": "__syntaxAccent__",
+		"textLink.activeForeground": "__duo2__",
+		"dropdown.background": "__syntaxGuide__",
+		"dropdown.border": "__syntaxSelectionGutter__",
+		"dropdown.foreground": "__syntaxFg__",
+		"input.background": "__syntaxGuide__",
+		"input.border": "__syntaxSelectionGutter__",
+		"input.foreground": "__syntaxFg__",
+		"scrollbarSlider.background": "__syntaxSelection__",
+		"scrollbarSlider.activeBackground": "__syntaxSelectionGutter__",
+		"list.inactiveFocusBackground": "__syntaxSelectionGutter__",
+		"list.activeSelectionBackground": "__syntaxAccent__",
+		"list.focusBackground": "__syntaxSelection__",
+		"activityBar.background": "__syntaxBg__",
+		"activityBar.foreground": "__syntaxFg__",
+		"sideBar.background": "__syntaxBg__",
+		"sideBar.foreground": "__syntaxFg__",
+		"sideBarSectionHeader.background": "__syntaxGuide__",
+		"editorGroupHeader.tabsBackground": "__syntaxGuide__",
+		"tab.inactiveBackground": "__syntaxSelection__",
+		"editor.lineHighlightBackground": "__syntaxSelectionGutter__",
+		"statusBar.background": "__duo2__",
+		"statusBar.foreground": "__uno1__",
+		"titleBar.activeBackground": "__syntaxGuide__",
+		"titleBar.activeForeground": "__syntaxFg__",
+		"menu.background": "__syntaxBg__",
+		"menu.foreground": "__syntaxFg__",
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "__uno5__",
+				"fontStyle": " italic"
+			}
+		},
+		{
+			"name": "Comment in Params",
+			"scope": "meta.parameters comment.block",
+			"settings": {
+				"foreground": "__duo1__",
+				"fontStyle": " italic"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "__duo2__"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "__duo2__"
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "__duo2__"
+			}
+		},
+		{
+			"name": "User-defined constant",
+			"scope": "constant.character, constant.other, variable.other.constant",
+			"settings": {
+				"foreground": "__duo2__"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable, support.other.variable",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "__syntaxFg__"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "__duo3__"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "__duo3__"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "__duo2__"
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": "entity.name.class",
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "__uno1__"
+			}
+		},
+		{
+			"name": "Type Name",
+			"scope": "entity.name.type,support.type",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "__uno1__"
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": "italic underline",
+				"foreground": "__uno1__"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "__uno1__"
+			}
+		},
+		{
+			"name": "Function argument",
+			"scope": "variable.parameter",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "__uno3__"
+			}
+		},
+		{
+			"name": "Tag name",
+			"scope": "entity.name.tag,entity.other.attribute-name.class,entity.other.attribute-name.id",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "__uno1__"
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "__syntaxFg__"
+			}
+		},
+		{
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "__uno1__"
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "__duo2__"
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": "support.class",
+			"settings": {
+				"foreground": "__syntaxFg__"
+			}
+		},
+		{
+			"name": "Library variable",
+			"scope": "support.other.variable",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Punctuation Meta",
+			"scope": "meta.brace,punctuation",
+			"settings": {
+				"foreground": "__uno5__"
+			}
+		},
+		{
+			"name": "C Comment",
+			"scope": "comment.block.c",
+			"settings": {
+				"fontStyle": " italic",
+				"foreground": "__duo1__"
+			}
+		},
+		{
+			"name": "CSS Property",
+			"scope": "meta.property-name,support.type.property-name",
+			"settings": {
+				"foreground": "__uno3__"
+			}
+		},
+		{
+			"name": "CSS Meta",
+			"scope": "meta.property-value",
+			"settings": {
+				"foreground": "__uno5__"
+			}
+		},
+		{
+			"name": "Object Literal Key",
+			"scope": "meta.object-literal.key",
+			"settings": {
+				"foreground": "__duo2__"
+			}
+		},
+		{
+			"name": "Import Block Meta",
+			"scope": "variable.other.readwrite.alias",
+			"settings": {
+				"foreground": "__duo2__"
+			}
+		},
+		{
+			"name": "Special Objects",
+			"scope": "variable.language.this,support.variable.object,support.variable.dom",
+			"settings": {
+				"foreground": "__uno3__"
+			}
+		}
+	]
+}

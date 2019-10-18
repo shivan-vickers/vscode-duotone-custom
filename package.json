@@ -1,0 +1,28 @@
+{
+    "name": "vscode-duotone-custom",
+    "displayName": "DuoTone Custom",
+    "description": "An easy to customize version of the DuoTone Dark Theme that also changes workbench and editor colours.",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "duotone"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Duotone Custom",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DuoTone Custom-color-theme.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "chroma-js": "^2.0.6"
+    }
+}
