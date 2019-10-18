@@ -30,6 +30,14 @@ This is still a WIP so I'll publish it when I'm happy with what it looks like. I
 
 If you want to fine tune the colours, you can also change the saturation and lightness values in all the `hsl()` functions and the amount values in the `brighten()` and `alpha()` functions.
 
+## Testing
+
+You can use VSCode's debug to quickly test out different colours!
+
+1. Open the repo in VSCode
+2. In the debug menu launch the `Build and Test` configuration
+3. A new editor window will open with your theme loaded with the new colours
+
 ## Links to the Original Work
 
 [DuoTone Dark](https://github.com/simurai/duotone-dark-syntax) by [simurai](https://github.com/simurai)
