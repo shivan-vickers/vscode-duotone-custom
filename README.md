@@ -4,7 +4,11 @@ An easy to customize version of the [DuoTone Dark Theme](https://github.com/sall
 
 This also adds workbench and editor colour changes to Sallar's work for which I also took inspiration from [Ayu](https://github.com/dempfi/ayu) by [Ike Ku](https://github.com/dempfi).
 
+![syntax screenshot](https://raw.githubusercontent.com/shivan-vickers/vscode-duotone-custom/master/assets/screenshot.png)
+
 Customizing can be done by changing the two hue values in `src/colors.js`. It looks like the `colors.less` file that simurai had in his theme so, if you've played around with his, you'll recognize this.
+
+![colors.js screenshot](https://raw.githubusercontent.com/shivan-vickers/vscode-duotone-custom/master/assets/colors.png)
 
 ## Installation
 
