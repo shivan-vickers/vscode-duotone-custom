@@ -1,6 +1,6 @@
 # Customizable DuoTone Dark for VSCode
 
-An easy to customize version of the [DuoTone Dark Theme](https://github.com/sallar/vscode-duotone-dark) ported to VSCode by [Sallar](https://github.com/sallar) and originally made for [Atom](https://github.com/simurai/duotone-dark-syntax) by [simurai](https://github.com/simurai).
+A customizable version of the [DuoTone Dark Theme](https://github.com/sallar/vscode-duotone-dark) ported to VS Code by [Sallar](https://github.com/sallar) and originally made for [Atom](https://github.com/simurai/duotone-dark-syntax) by [simurai](https://github.com/simurai).
 
 This also adds workbench and editor colour changes to Sallar's work for which I also took inspiration from [Ayu](https://github.com/dempfi/ayu) by [Ike Ku](https://github.com/dempfi).
 
